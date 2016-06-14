@@ -1,0 +1,44 @@
+{
+  "name": "frontendstack",
+  "version": "0.0.1",
+  "description": "using es6 with gulp",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/gulp/bin/gulp default",
+    "deploy": "surge -p public -d website.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marti1125/frontendstack"
+  },
+  "keywords": [
+    "gulp",
+    "es6"
+  ],
+  "author": "Willy Aguirre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marti1125/frontendstack/issues"
+  },
+  "homepage": "https://github.com/marti1125/frontendstack#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "*",
+    "gulp-jade": "*",
+    "gulp-sass": "*",
+    "jade": "1.11.0",
+    "express": "*",
+    "browser-sync": "*",
+    "gutil": "*",
+    "del": "*",
+    "run-sequence": "*",
+    "gulp-rename": "^1.2.2",
+    "merge-stream": "^1.0.0",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2016-node5": "^1.1.2",
+    "surge": "*"
+  }
+}
